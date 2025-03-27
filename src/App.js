@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import NavigationBar from "./components/Navbar";
-import Auth from "./components/Auth";
+import Auth from "./Auth/auth";
 import Expenses from "./components/Expenses";
 import PayPalCheckout from "./components/PayPalCheckout";
 
